@@ -1,3 +1,55 @@
-body{
-    color: yellow;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap');
+ 
+navbar{  
+    background-color: rgb(27, 46, 46);
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+        a, li, button{
+           font-family: 'Baloo Tamma 2', cursive;
+           color: white;
+           text-decoration: none;
+        }
+
+        .logo{
+            font-size: 25px;
+        }
+
+        .nav_links{
+            list-style: none;
+            li{
+                display: inline;
+                padding: 0px 30px;
+            }
+        }
+        .nav_links li a{
+            transition: all 0.3s ease 0s;
+        }
+        .nav_links li a:hover{
+            color: #0088a9
+        }
+
+        button{
+            padding: 9px 25px;
+            background-color: rgba(0,136,169,1);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+        }
+
+        button:hover{
+            background-color: rgb(6, 110, 136);
+        }
+
+
 }
